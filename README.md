@@ -1,4 +1,5 @@
-# Setting up MessageMedia SMS for Auth0
+# Setting up MessageMedia SMS for Auth
+[![HitCount](http://hits.dwyl.io/messagemedia/auth0-integration.svg)](http://hits.dwyl.io/messagemedia/auth0-integration)
 
 This guide assumes that you've already got your MessageMedia API credentials. If you don't, you can sign up for them for free over [here](https://developers.messagemedia.com/register).
 
