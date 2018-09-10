@@ -1,5 +1,7 @@
 # Setting up MessageMedia SMS for Auth0
 
+This guide assumes that you've already got your MessageMedia API credentials. If you don't, you can sign up for them for free over [here](https://developers.messagemedia.com/register).
+
 ## Create Lambda Function
 
 1. In the [AWS Lambda console](https://console.aws.amazon.com/lambda/home), create a new function and give it a name such as _Auth0SMSGateway_. Use no template.
