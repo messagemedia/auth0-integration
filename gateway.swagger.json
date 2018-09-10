@@ -1,0 +1,25 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "description": "An SMS gateway webhook that can be configured in Auth0 and sends messages through MessageMedia.",
+    "title": "Auth0 MessageMedia SMS Gateway"
+  },
+  "schemes": [
+    "https"
+  ],
+  "paths": {
+    "/sendSMS": {
+        "post": {
+            "description": "Send SMS",
+            "consumes": [
+                "application/json"
+            ],
+            "responses": {
+                "204": {
+                    "description": "Successful operation"            
+                }
+            }
+        }
+    }
+  }
+}
