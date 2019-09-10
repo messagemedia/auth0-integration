@@ -27,7 +27,7 @@ Next, make a PATCH request to `https://{YOURTENANT}.auth0.com/api/v2/connections
 
 ````json
     "provider": "sms_gateway",
-    "gateway_url": "https://auth0.workflows-prd.syd.mmd.zone/messages",
+    "gateway_url": "https://auth0-api.messagemedia.com/messages",
     "gateway_authentication": {
         "method": "bearer",
         "subject": "{YOUR_API_KEY}",
